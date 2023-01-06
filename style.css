@@ -39,5 +39,30 @@ nav{
     align-items: center;
     justify-content: space-between;
     border: green 2px dotted;
+}
 
+nav .logo {
+    width: 80px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 160px;
+    color: #fff;
+    font-weight: 600;
 }
